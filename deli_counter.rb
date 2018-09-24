@@ -9,6 +9,10 @@ def line
     puts katz_deli
 end
 
-def take_a_number (, person_in_line)
+def take_a_number (people_in_line, last_in_line)
+  puts "Welcome, #{last_in_line}. You are number #{people_in_line+1} in line."
+end
 
+def now_serving 
+  
 end
